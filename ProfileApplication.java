@@ -8,6 +8,14 @@ public class ProfileApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProfileApplication.class, args);
+		
+			/*RQ 1361 CODE=====START*/
+				SpringApplication.run(ProfileApplication.class, args);
+		SpringApplication.run(ProfileApplication.class, args);
+		SpringApplication.run(ProfileApplication.class, args);
+		SpringApplication.run(ProfileApplication.class, args);
+/*RQ 1361 CODE=====START*/
+
 	}
 
 }
